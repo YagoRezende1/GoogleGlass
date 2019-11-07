@@ -1,0 +1,17 @@
+/* SEPARAR OS ARQUIVOS DE ESTILO DE CADA PÁGINA 
+PARA NÃO PRECISAR CARREGAR TODO O CSS*/
+@charset "UTF-8";
+
+section#conteudo{
+	width: 1000px;
+	margin: auto;
+}
+/*MODIFICA O IFRAME. O IFRAME PERMITE QUE UMA PÁGINA
+SEJA CARREGADA DENTRO DE OUTRA*/
+iframe#frame-spec{
+	width: 400px;
+	height: 280px;
+	border: none;
+	overflow: hidden;
+}
+

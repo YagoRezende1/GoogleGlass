@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8"/>
+	<title>Tudo Sobre Google Glass</title>
+	<link rel="stylesheet" type="text/css" href="estilo.css"/>
+	<link rel="stylesheet" type="text/css" href="specs.css"/>
+</head>
+<script type="text/javascript" src="funcoes.js"></script>
+<body>
+<div id="interface">
+	<header id="cabecalho">
+	<hgroup>
+	<h1>Google Glass</h1>
+	<h2>A revolução do Google está chegando</h2>
+	</hgroup>
+	
+	<img id="icone" src="_imagens/especificacoes.png"/>
+
+	<nav id="menu">
+	<h1>Menu Principal</h1>
+	<ul>
+		<li onmouseover="mudaFoto('_imagens/home.png')" onmouseout="mudaFoto('_imagens/especificacoes.png')"><a href="index.html">Home</a></li>
+		<li onmouseover="mudaFoto('_imagens/especificacoes.png')" onmouseout="mudaFoto('_imagens/especificacoes.png')"><a href="specs.html">Especificações</a></li>
+		<li onmouseover="mudaFoto('_imagens/fotos.png')" onmouseout="mudaFoto('_imagens/especificacoes.png')"><a href="fotos.html">Fotos</a></li>
+		<li onmouseover="mudaFoto('_imagens/multimidia.png')" onmouseout="mudaFoto('_imagens/especificacoes.png')"><a href="multimidia.html">Multimídia</a></li>
+		<li onmouseover="mudaFoto('_imagens/contato.png')" onmouseout="mudaFoto('_imagens/especificacoes.png')"><a href="fale-conosco.html">Fale Conosco</a></li>
+	</ul>
+	</nav>
+	</header>
+		<article id="noticia-principal">
+		<section id="corpo-full">
+		<header id="cabecalho-artigo">
+		<hgroup>
+		<h3>Glass > Especificações</h3>
+		<h1>Raio-X do Google Glass</h1>
+		<h2>por Yago Rezende</h2>
+		<h3 class="direita">Atualizado em 12/10/2019</h3>
+		</hgroup>
+		</header>
+
+		<p style="text-indent: 0px"><b style="color:gray">Clique em qualquer área destacada da imagem para ter mais informações sobre os recursos do Google Glass. Qualquer ponto vermelho vai te levar a um lugar cheio de novas informações.</b></p>
+		<section id="conteudo">
+			<img src="glass-esquema-marcado.jpg" usemap="#meumapa" />
+			<map name="meumapa">
+				<area shape="poly" coords="183,218,266,206,270,243,185,256" href="specs-interno.html#tela" target="janela"/>
+				<area shape="circle" coords="76,52,12" href="specs-interno.html#gadgets" target="janela">
+				<area shape="circle" coords="157,243,12" href="specs-interno.html#camera" target="janela">
+				<area shape="poly" coords="27,143,82,215,82,249,25,165" href="specs-interno.html#sensores" target="janela">
+			</map>
+			<iframe scrolling="NO" src="specs-interno.html" name="janela" id="frame-spec"></iframe>
+		</section>
+		</section>
+		</article>
+		<footer id="rodape">
+	<p style="text-align: center">Copyright &copy; 2019 - by Yago Rezende</p>
+	</footer>
+</div> 
+</body>
+</html>
